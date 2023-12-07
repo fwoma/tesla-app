@@ -5,9 +5,9 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1</version>
+	<version>2.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>Dash</name>
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
@@ -20,7 +20,11 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
+ development
+		<sonar.host.url>http://172.31.20.208:9000/</sonar.host.url>
+=======
 		<sonar.host.url>http://172.31.30.127:9000/</sonar.host.url>
+master
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Location#1</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,13 +100,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.53.227.31:8191/landmark/repository/tesla-fe-releases/</url> 
+	      <url>http://172.31.17.155:8081/repository/Dash-Release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.53.227.31:8191/landmark/repository/tesla-fe-snapshots/</url>
+	      <url>http://172.31.17.155:8081/repository/Dash-Snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
