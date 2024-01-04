@@ -9,7 +9,7 @@
 	
 	<name>Dash</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Java Project</description>
 	<organization>
 		<name>Landmark Technologies</name>
 		<url>http://landmarktechnologies.com/</url>
@@ -20,8 +20,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.20.208:9000/</sonar.host.url>
-		<sonar.host.url>http://172.31.30.127:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.24.76:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.24.76:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Location#1</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
