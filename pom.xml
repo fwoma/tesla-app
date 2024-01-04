@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.24.76:8081/repository/Dash-Release/</url> 
+	      <url>http://18.216.17.115:8081/repository/Dash-Release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.24.76:8081/repository/Dash-Snapshot/</url>
+	      <url>http://18.216.17.115:8081/repository/Dash-Snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
